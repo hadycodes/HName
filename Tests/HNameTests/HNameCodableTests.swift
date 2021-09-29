@@ -15,6 +15,7 @@ struct Person: Codable {
 }
 
 final class HNameCodableTests: XCTestCase {
+    
     func testDecodePerson() {
         let personJson = #"{"name": "Hady Nourallah", "age": 99}"#.data(using: .utf8)!
         if let decodedPerson = try? JSONDecoder().decode(Person.self, from: personJson) {
