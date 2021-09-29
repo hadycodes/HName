@@ -1,2 +1,4 @@
 # HName
-Swift package to deal with name strings.
+
+All about name strings. 
+
