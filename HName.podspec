@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'HName'
-    s.version          = '0.9.0'
+    s.version          = '0.9.1'
     s.summary          = 'Swift package to deal with name strings.'
     s.homepage         = 'https://github.com/HadiIOS/HName'
     s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
